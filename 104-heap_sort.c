@@ -56,7 +56,7 @@ void heap_sort(int *array, size_t size)
 	if (!array || size < 2)
 		return;
 
-	start_index = ((int)size - 1) / 2;
+	start_index = ((int) size - 1) / 2;
 
 	for (i = start_index; i >= 0; i--)
 	{
